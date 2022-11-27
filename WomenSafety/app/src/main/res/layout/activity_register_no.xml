@@ -25,6 +25,7 @@
 
         <EditText
             android:id="@+id/phoneNo"
+            android:text="Enter Number :"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -37,6 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="saveNo"
+            android:background="@drawable/button_shape"
             android:text="Finish" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
